@@ -1,5 +1,16 @@
-name = "homepage-baro"
-compatibility_date = "2024-09-23"
-compatibility_flags = ["nodejs_compat"]
+#name = "homepage-baro"
+#compatibility_date = "2024-09-23"
+#compatibility_flags = ["nodejs_compat"]
 
+#pages_build_output_dir = "out"
+
+
+#:schema node_modules/wrangler/config-schema.json
+name = "homepage-baro"
+compatibility_date = "2026-03-30"
+
+# Pages 서비스임을 명시하고 빌드 결과물 경로 지정
 pages_build_output_dir = "out"
+
+[build]
+command = "npm run build"
