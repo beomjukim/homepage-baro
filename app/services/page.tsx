@@ -1,7 +1,5 @@
 import Link from "next/link";
 
-export const runtime = "edge";
-
 export const metadata = {
   title: "서비스 | 바로인쇄소",
   description:

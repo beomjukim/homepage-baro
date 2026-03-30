@@ -3,8 +3,6 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 
-export const runtime = "edge";
-
 export const metadata: Metadata = {
   title: "바로인쇄소 - 라벨 스티커 인쇄전문",
   description:
